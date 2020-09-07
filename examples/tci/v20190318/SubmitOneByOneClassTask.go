@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"
-	tci "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tci/v20190318"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/profile"
+	tci "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/tci/v20190318"
 )
 
 func main() {

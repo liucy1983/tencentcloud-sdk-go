@@ -17,7 +17,7 @@ package v20190529
 import (
     "encoding/json"
 
-    tchttp "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http"
+    tchttp "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/http"
 )
 
 type AssessQualityRequest struct {
