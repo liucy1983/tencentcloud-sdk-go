@@ -10595,7 +10595,7 @@ type SecurityGroupPolicy struct {
 type SecurityGroupPolicySet struct {
 
 	// 安全组规则当前版本。用户每次更新安全规则版本会自动加1，防止更新的路由规则已过期，不填不考虑冲突。
-	Version *string `json:"Version,omitempty" name:"Version"`
+	Version *int `json:"Version,omitempty" name:"Version"`
 
 	// 出站规则。
 	Egress []*SecurityGroupPolicy `json:"Egress,omitempty" name:"Egress" list`
