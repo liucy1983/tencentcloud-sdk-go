@@ -10713,7 +10713,7 @@ type Subnet struct {
 	EnableBroadcast *bool `json:"EnableBroadcast,omitempty" name:"EnableBroadcast"`
 
 	// 可用区。
-	Zone *int64 `json:"Zone,omitempty" name:"Zone"`
+	Zone *string `json:"Zone,omitempty" name:"Zone"`
 
 	// 路由表实例ID，例如：rtb-l2h8d7c2。
 	RouteTableId *string `json:"RouteTableId,omitempty" name:"RouteTableId"`
